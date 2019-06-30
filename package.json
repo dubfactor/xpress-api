@@ -1,0 +1,33 @@
+{
+  "name": "crudexpress-api",
+  "version": "1.0.0",
+  "description": "Practice CRUD Xpress App",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Richard Arnett",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "helmet": "^3.18.0",
+    "knex": "^0.18.0",
+    "morgan": "^1.9.1",
+    "pg": "^7.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dufactor/crudExpress-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dufactor/crudExpress-api/issues"
+  },
+  "homepage": "https://github.com/dufactor/crudExpress-api#readme"
+}
